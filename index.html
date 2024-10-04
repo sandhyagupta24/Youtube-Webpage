@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Webpage</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+<div class="header">
+    <div class="navbar">
+        
+        <div class="menu-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+            </svg>
+        </div>
+
+    
+        <div class="logo">
+            <img src="youtube.logo.png" alt="YouTube Logo" height="35px">
+        </div>
+
+        
+        <div class="search-section">
+            <input type="text" class="search-bar" placeholder="Search">
+            <div class="sea-mic">
+                <button class="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+                <button class="mic-btn">
+                    <i class="fas fa-microphone"></i>
+                </button>
+            </div>
+        </div>
+
+        
+        <div class="profile">
+            
+            <div class="video">
+                <svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="24px" fill="#000000">
+                    <path d="M360-320h80v-120h120v-80H440v-120h-80v120H240v80h120v120ZM160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h480q33 0 56.5 23.5T720-720v180l160-160v440L720-420v180q0 33-23.5 56.5T640-160H160Zm0-80h480v-480H160v480Zm0 0v-480 480Z" />
+                </svg>
+            </div>
+            
+            
+            <div class="bell">
+                <svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="24px" fill="#000000">
+                    <path d="M160-200v-80h80v-280q0-83 50-147.5T420-792v-28q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820v28q80 20 130 84.5T720-560v280h80v80H160Zm320-300Zm0 420q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM320-280h320v-280q0-66-47-113t-113-47q-66 0-113 47t-47 113v280Z" />
+                </svg>
+            </div>
+            
+    
+            <div class="mail">
+                <img src="https://cdn-icons-png.flaticon.com/512/9000/9000078.png" alt="Mail Icon" height="32px" width="32px">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    <div class="home-menu">
+        <div class="left-container">
+
+            <li><a href="#" class="left-containers"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#5f6368">
+                    <path
+                        d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z" />
+                </svg>Home</a></li>
+            <li><a href="#" class="left-containers"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 24 24">
+                    <path
+                        d="M 15.886719 1 C 14.974131 1 14.077693 1.2286385 13.287109 1.65625 L 5.5664062 5.7207031 L 5.5664062 5.71875 C 3.7637541 6.6652034 2.6367187 8.5322799 2.6367188 10.566406 C 2.6367188 11.911504 3.2225585 13.082394 4.046875 14.046875 C 3.2161002 15.0216 2.6367187 16.195885 2.6367188 17.521484 C 2.6367188 20.532674 5.1018215 23 8.1132812 23 C 9.0303925 23 9.9287625 22.773103 10.716797 22.341797 L 18.292969 18.353516 L 18.259766 18.369141 C 20.151702 17.459981 21.363281 15.531898 21.363281 13.433594 C 21.363281 12.088496 20.777441 10.917606 19.953125 9.953125 C 20.783897 8.9783946 21.363281 7.8041153 21.363281 6.4785156 C 21.363281 3.4673258 18.898179 1 15.886719 1 z M 15.886719 3 C 17.813259 3 19.363281 4.5517054 19.363281 6.4785156 C 19.363281 7.5499776 18.888956 8.5222239 18.080078 9.1777344 L 17.121094 9.9550781 L 18.080078 10.732422 C 18.871608 11.373406 19.363281 12.344494 19.363281 13.433594 C 19.363281 14.75529 18.584642 15.993566 17.392578 16.566406 L 17.376953 16.574219 L 9.7636719 20.583984 L 9.7578125 20.587891 C 9.2778524 20.850605 8.6961702 21 8.1132812 21 C 6.1867412 21 4.6367188 19.448295 4.6367188 17.521484 C 4.6367188 16.450022 5.1110438 15.477776 5.9199219 14.822266 L 6.8789062 14.044922 L 5.9199219 13.267578 C 5.1283915 12.626594 4.6367188 11.655506 4.6367188 10.566406 C 4.6367188 9.266533 5.3427459 8.095781 6.4960938 7.4902344 L 6.4980469 7.4902344 L 14.232422 3.4179688 L 14.238281 3.4140625 C 14.729251 3.1482632 15.309951 3 15.886719 3 z M 10 9 L 10 15 L 15 12 L 10 9 z">
+                    </path>
+                </svg>Shorts</a></li>
+            <li><a href="#" class="left-containers"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#5f6368">
+                    <path
+                        d="M160-80q-33 0-56.5-23.5T80-160v-400q0-33 23.5-56.5T160-640h640q33 0 56.5 23.5T880-560v400q0 33-23.5 56.5T800-80H160Zm0-80h640v-400H160v400Zm240-40 240-160-240-160v320ZM160-680v-80h640v80H160Zm120-120v-80h400v80H280ZM160-160v-400 400Z" />
+
+                </svg>Subscription</a></li>
+
+<hr>
+
+            <li>
+                <h5>You ></h5>
+            </li>
+            <li><a href="#" class="left-containers"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#5f6368">
+                    <path
+                        d="M480-120q-138 0-240.5-91.5T122-440h82q14 104 92.5 172T480-200q117 0 198.5-81.5T760-480q0-117-81.5-198.5T480-760q-69 0-129 32t-101 88h110v80H120v-240h80v94q51-64 124.5-99T480-840q75 0 140.5 28.5t114 77q48.5 48.5 77 114T840-480q0 75-28.5 140.5t-77 114q-48.5 48.5-114 77T480-120Zm112-192L440-464v-216h80v184l128 128-56 56Z" />
+                </svg>History</a></li>
+            <li><a href="#" class="left-containers"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#5f6368">
+                    <path
+                        d="M120-320v-80h320v80H120Zm0-160v-80h480v80H120Zm0-160v-80h480v80H120Zm520 520v-320l240 160-240 160Z" />
+                </svg>Playlist</a></li>
+            <li><a href="#" class="left-containers"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#5f6368">
+                    <path
+                        d="m612-292 56-56-148-148v-184h-80v216l172 172ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-400Zm0 320q133 0 226.5-93.5T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160Z" />
+                </svg>Watch later</a></li>
+            <li><a href="#" class="left-containers"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#5f6368">
+                    <path
+                        d="M720-120H280v-520l280-280 50 50q7 7 11.5 19t4.5 23v14l-44 174h258q32 0 56 24t24 56v80q0 7-2 15t-4 15L794-168q-9 20-30 34t-44 14Zm-360-80h360l120-280v-80H480l54-220-174 174v406Zm0-406v406-406Zm-80-34v80H160v360h120v80H80v-520h200Z" />
+                </svg>Liked videos</a></li>
+
+<hr>
+
+            <li>
+                <h5>Explore</h5>
+            </li>
+
+            <li><a href="#" class="left-containers"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#5f6368">
+                    <path
+                        d="M240-400q0 52 21 98.5t60 81.5q-1-5-1-9v-9q0-32 12-60t35-51l113-111 113 111q23 23 35 51t12 60v9q0 4-1 9 39-35 60-81.5t21-98.5q0-50-18.5-94.5T648-574q-20 13-42 19.5t-45 6.5q-62 0-107.5-41T401-690q-39 33-69 68.5t-50.5 72Q261-513 250.5-475T240-400Zm240 52-57 56q-11 11-17 25t-6 29q0 32 23.5 55t56.5 23q33 0 56.5-23t23.5-55q0-16-6-29.5T537-292l-57-56Zm0-492v132q0 34 23.5 57t57.5 23q18 0 33.5-7.5T622-658l18-22q74 42 117 117t43 163q0 134-93 227T480-80q-134 0-227-93t-93-227q0-129 86.5-245T480-840Z" />
+                </svg>Trending</a></li>
+            <li><a href="#" class="left-containers"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#5f6368">
+                    <path
+                        d="M200-80q-33 0-56.5-23.5T120-160v-480q0-33 23.5-56.5T200-720h80q0-83 58.5-141.5T480-920q83 0 141.5 58.5T680-720h80q33 0 56.5 23.5T840-640v480q0 33-23.5 56.5T760-80H200Zm0-80h560v-480H200v480Zm280-240q83 0 141.5-58.5T680-600h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85h-80q0 83 58.5 141.5T480-400ZM360-720h240q0-50-35-85t-85-35q-50 0-85 35t-35 85ZM200-160v-480 480Z" />
+                </svg>Shopping</a></li>
+            <li><a href="#" class="left-containers"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#5f6368">
+                    <path
+                        d="M400-120q-66 0-113-47t-47-113q0-66 47-113t113-47q23 0 42.5 5.5T480-418v-422h240v160H560v400q0 66-47 113t-113 47Z" />
+                </svg>Music</a></li>
+            <li><a href="#" class="left-containers"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#5f6368">
+                    <path
+                        d="m160-800 80 160h120l-80-160h80l80 160h120l-80-160h80l80 160h120l-80-160h120q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800Zm0 240v320h640v-320H160Zm0 0v320-320Z" />
+                </svg>Movie</a></li>
+            <li><a href="#" class="left-containers"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#5f6368">
+                    <path
+                        d="M197-197q-54-55-85.5-127.5T80-480q0-84 31.5-156.5T197-763l57 57q-44 44-69 102t-25 124q0 67 25 125t69 101l-57 57Zm113-113q-32-33-51-76.5T240-480q0-51 19-94.5t51-75.5l57 57q-22 22-34.5 51T320-480q0 33 12.5 62t34.5 51l-57 57Zm170-90q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm170 90-57-57q22-22 34.5-51t12.5-62q0-33-12.5-62T593-593l57-57q32 32 51 75.5t19 94.5q0 50-19 93.5T650-310Zm113 113-57-57q44-44 69-102t25-124q0-67-25-125t-69-101l57-57q54 54 85.5 126.5T880-480q0 83-31.5 155.5T763-197Z" />
+                </svg>Live</a></li>
+            <li><a href="#" class="left-containers"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#5f6368">
+                    <path
+                        d="M189-160q-60 0-102.5-43T42-307q0-9 1-18t3-18l84-336q14-54 57-87.5t98-33.5h390q55 0 98 33.5t57 87.5l84 336q2 9 3.5 18.5T919-306q0 61-43.5 103.5T771-160q-42 0-78-22t-54-60l-28-58q-5-10-15-15t-21-5H385q-11 0-21 5t-15 15l-28 58q-18 38-54 60t-78 22Zm3-80q19 0 34.5-10t23.5-27l28-57q15-31 44-48.5t63-17.5h190q34 0 63 18t45 48l28 57q8 17 23.5 27t34.5 10q28 0 48-18.5t21-46.5q0 1-2-19l-84-335q-7-27-28-44t-49-17H285q-28 0-49.5 17T208-659l-84 335q-2 6-2 18 0 28 20.5 47t49.5 19Zm348-280q17 0 28.5-11.5T580-560q0-17-11.5-28.5T540-600q-17 0-28.5 11.5T500-560q0 17 11.5 28.5T540-520Zm80-80q17 0 28.5-11.5T660-640q0-17-11.5-28.5T620-680q-17 0-28.5 11.5T580-640q0 17 11.5 28.5T620-600Zm0 160q17 0 28.5-11.5T660-480q0-17-11.5-28.5T620-520q-17 0-28.5 11.5T580-480q0 17 11.5 28.5T620-440Zm80-80q17 0 28.5-11.5T740-560q0-17-11.5-28.5T700-600q-17 0-28.5 11.5T660-560q0 17 11.5 28.5T700-520Zm-360 60q13 0 21.5-8.5T370-490v-40h40q13 0 21.5-8.5T440-560q0-13-8.5-21.5T410-590h-40v-40q0-13-8.5-21.5T340-660q-13 0-21.5 8.5T310-630v40h-40q-13 0-21.5 8.5T240-560q0 13 8.5 21.5T270-530h40v40q0 13 8.5 21.5T340-460Zm140-20Z" />
+                </svg>Gaming</a></li>
+            <li><a href="#" class="left-containers"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#5f6368">
+                    <path
+                        d="M160-120q-33 0-56.5-23.5T80-200v-640l67 67 66-67 67 67 67-67 66 67 67-67 67 67 66-67 67 67 67-67 66 67 67-67v640q0 33-23.5 56.5T800-120H160Zm0-80h280v-240H160v240Zm360 0h280v-80H520v80Zm0-160h280v-80H520v80ZM160-520h640v-120H160v120Z" />
+                </svg>News</a></li>
+            <li><a href="#" class="left-containers"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#5f6368">
+                    <path
+                        d="M280-120v-80h160v-124q-49-11-87.5-41.5T296-442q-75-9-125.5-65.5T120-640v-40q0-33 23.5-56.5T200-760h80v-80h400v80h80q33 0 56.5 23.5T840-680v40q0 76-50.5 132.5T664-442q-18 46-56.5 76.5T520-324v124h160v80H280Zm0-408v-152h-80v40q0 38 22 68.5t58 43.5Zm200 128q50 0 85-35t35-85v-240H360v240q0 50 35 85t85 35Zm200-128q36-13 58-43.5t22-68.5v-40h-80v152Zm-200-52Z" />
+                </svg>Sports</a></li>
+            <li><a href="#" class="left-containers"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#5f6368">
+                    <path
+                        d="M480-80q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM320-200v-80h320v80H320Zm10-120q-69-41-109.5-110T180-580q0-125 87.5-212.5T480-880q125 0 212.5 87.5T780-580q0 81-40.5 150T630-320H330Zm24-80h252q45-32 69.5-79T700-580q0-92-64-156t-156-64q-92 0-156 64t-64 156q0 54 24.5 101t69.5 79Zm126 0Z" />
+                </svg>Courses</a></li>
+            <li><a href="#" class="left-containers"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#5f6368">
+                    <path
+                        d="M280-80v-240h-64q-40 0-68-28t-28-68q0-29 16-53.5t42-36.5l262-116v-26q-36-13-58-43.5T360-760q0-50 35-85t85-35q50 0 85 35t35 85h-80q0-17-11.5-28.5T480-800q-17 0-28.5 11.5T440-760q0 17 11.5 28.5T480-720t28.5 11.5Q520-697 520-680v58l262 116q26 12 42 36.5t16 53.5q0 40-28 68t-68 28h-64v240H280Zm-64-320h64v-40h400v40h64q7 0 11.5-5t4.5-13q0-5-2.5-8.5T750-432L480-552 210-432q-5 2-7.5 5.5T200-418q0 8 4.5 13t11.5 5Zm144 240h240v-200H360v200Zm0-200h240-240Z" />
+                </svg>Fashion & Beauty</a></li>
+            <li><a href="#" class="left-containers"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#5f6368">
+                    <path
+                        d="M440-80v-331q-18-11-29-28.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 23-11 41t-29 28v331h-80ZM204-190q-57-55-90.5-129.5T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 86-33.5 161T756-190l-56-56q46-44 73-104.5T800-480q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 69 27 129t74 104l-57 57Zm113-113q-35-33-56-78.5T240-480q0-100 70-170t170-70q100 0 170 70t70 170q0 53-21 99t-56 78l-57-57q25-23 39.5-54t14.5-66q0-66-47-113t-113-47q-66 0-113 47t-47 113q0 36 14.5 66.5T374-360l-57 57Z" />
+                </svg>Podcasts</a></li>
+<hr>
+
+            <li>
+                <h5>More from You Tube</h5>
+            </li>
+
+<li><a href="#" class="left-containers"><i class="fa-brands fa-youtube" style="color: #e5242e;"></i>YouTube Premium</a></li>
+
+<li><a href="#" class="left-containers"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 48 48">
+    <linearGradient id="2Kwn75UM7U5wuXsmTmjBBa_6zadLh4Adjrp_gr1" x1="14.101" x2="34.491" y1="6.854" y2="42.171" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ea504d"></stop><stop offset=".736" stop-color="#e83e3b"></stop><stop offset="1" stop-color="#e73634"></stop></linearGradient><path fill="url(#2Kwn75UM7U5wuXsmTmjBBa_6zadLh4Adjrp_gr1)" d="M44,24c0,11.045-8.955,20-20,20S4,35.045,4,24S12.955,4,24,4S44,12.955,44,24z"></path><path fill="#fff" d="M24,37c-7.168,0-13-5.832-13-13s5.832-13,13-13s13,5.832,13,13S31.168,37,24,37z M24,12	c-6.617,0-12,5.383-12,12s5.383,12,12,12s12-5.383,12-12S30.617,12,24,12z"></path><polygon fill="#fff" points="20,18 20,30 30,24"></polygon>
+    </svg>YouTube Music</a></li>
+
+    
+        </div>
+
+
+    
+<div class="box">
+    <div class="option">
+
+
+
+        <button class="category-button">All</button>
+        <button class="category-button">Music</button>
+        <button class="category-button">Live</button>
+        <button class="category-button">Gaming</button>
+        <button class="category-button">News</button>
+        <button class="category-button">Sports</button>
+        <button class="category-button">Movies</button>
+        <button class="category-button">Trending</button>
+        <button class="category-button">Learning</button>
+        <button class="category-button">Podcasts</button>
+        <button class="category-button">BTS</button>
+        <button class="category-button">Korean</button>
+        <button class="category-button">Art</button>
+        <button class="category-button">Dance</button>
+        <button class="category-button">Beauty</button>
+        <button class="category-button">Fashion</button>
+        <button class="category-button">Shopping</button>
+        <button class="category-button">Make-up</button>
+        <button class="category-button">K-pop</button>
+        <button class="category-button">Korean Beauty</button>
+        <button class="category-button">Indian Cultur</button>
+        <button class="category-button">India History</button>
+        <button class="category-button">Japan</button>
+        <button class="category-button">Technology</button>
+
+    </div>
+
+
+</div>
+</div>
+
+
+    <div class="video-gride">
+        <div class="video-card">
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/qDkOrHv42rY" title="How to Create a Portfolio Website Using Only HTML &amp; CSS | Hindi Tutorial for Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h4>Video Title 2</h4>
+            <p>Channel Name</p>
+            <p>2M views • 1 day ago</p>
+        </div>
+        <div class="video-card">
+            <iframe width="380" height="280" src="https://www.youtube.com/embed/nmBhjE6CNqs" title="SLANDER_I&#39;m sorry don&#39;t leave me i want here with me (lyrics) Love is gone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h4>Video Title 2</h4>
+            <p>Channel Name</p>
+            <p>1M views • 2 days ago</p>
+        </div>
+        <div class="video-card">
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/6XFsCHaXUcs" title="Yimmy Yimmy ( Lyrics ) Tayc - Shreya Ghoshal | @TunuGunu #lyrics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h4>Video Title 2</h4>
+            <p>Channel Name</p>
+            <p>1M views • 2 days ago</p>
+        </div>
+        <div class="video-card">
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/iwncGYFPxmU" title="Doraemon Title Song - Lyrical Video | LyricalLyfe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h4>Video Title 2</h4>
+            <p>Channel Name</p>
+            <p>1M views • 2 days ago</p>
+        </div>
+        <div class="video-card">
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/MlJfixx2dAM" title="हिंदी Oggy and the Cockroaches ☝️ Yes my commander ☝️ Hindi Cartoons for Kids" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h4>Video Title 2</h4>
+            <p>Channel Name</p>
+            <p>1M views • 2 days ago</p>
+        </div>
+        <div class="video-card">
+            <iframe width="380" height="280" src="https://www.youtube.com/embed/5mvCVJIZWtA" title="RADWIMPS - Suzume (Lyrics) ft. Toaka" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h4>Video Title 2</h4>
+            <p>Channel Name</p>
+            <p>1M views • 2 days ago</p>
+        </div>
+        <div class="video-card">
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/X8L7m-I5i8A" title="Sofia solves Mother&#39;s Day mayhem | Sofia The First | S1 EP 26 | @disneyindia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h4>Video Title 2</h4>
+            <p>Channel Name</p>
+            <p>1M views • 2 days ago</p>
+        </div>
+        <div class="video-card">
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/-0zRMNVDUVw" title="Shinchan Cartoon Theme Song - Lyrical Video | LyricalLyfe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h4>Video Title 2</h4>
+            <p>Channel Name</p>
+            <p>1M views • 2 days ago</p>
+        </div>
+        <div class="video-card">
+            <iframe width="938" height="750" src="https://www.youtube.com/embed/5TN_9xCrWFA" title="Chhota Bheem Title Song" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h4>Video Title 2</h4>
+            <p>Channel Name</p>
+            <p>1M views • 2 days ago</p>
+        </div>
+        <div class="video-card">
+            <iframe width="380" height="280" src="https://www.youtube.com/embed/ri_7WhlpSjE" title="LISA(리사) - LALISA @인기가요 inkigayo 20210919" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h4>Video Title 3</h4>
+            <p>Channel Name</p>
+            <p>500K views • 3 days ago</p>
+        </div>
+        <div class="video-card">
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/cxNIewNXpcg" title="BLACKPINK - &#39;SOLO&#39; + &#39;뚜두뚜두(DDU-DU DDU-DU)&#39; + &#39;FOREVER YOUNG&#39; in 2018 SBS Gayodaejun" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h4>Fifty Fifty - Cupid</h4>
+            <p>Channel Name</p>
+            <p>19M views • 1 year ago</p>
+        </div>
+        <div class="video-card">
+            <iframe width="380" height="280" src="https://www.youtube.com/embed/ajdRvxDWH4w" title="JavaScript Full Course ❤️ | Variables &amp; Data Types | Lecture 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h4>Video Title 5</h4>
+            <p>Channel Name</p>
+            <p>800K views • 1 week ago</p>
+        </div>    
+        <div class="video-card">
+            <iframe width="489" height="870" src="https://www.youtube.com/embed/3X9dVuj3Ino" title="v transformation jump (leggo) song...💜 #v #taehyung #bts #viral #shorts like share and comment." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h4>Video Title 6</h4>
+            <p>Channel Name</p>
+            <p>900K views • 2 weeks ago</p>
+        </div>
+        <div class="video-card">
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/jEdfjuG0Fx4" title="정국 (Jung Kook) &#39;Dreamers&#39; @ FIFA World Cup Qatar 2022 Opening Ceremony" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h4>Video Title 7</h4>
+            <p>Channel Name</p>
+            <p>400K views • 3 weeks ago</p>
+        </div>
+        <div class="video-card">
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/__MIrmfbsmk" title="BTS - HOME [2019 KBS Song Festival Ep 3]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h4>Video Title 8</h4>
+            <p>Channel Name</p>
+            <p>1.2M views • 4 weeks ago</p>
+        </div>
+        <div class="video-card">
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/7C2z4GqqS5E" title="BTS (방탄소년단) &#39;FAKE LOVE&#39; Official MV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h4>Video Title 9</h4>
+            <p>Channel Name</p>
+            <p>300K views • 1 month ago</p>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
